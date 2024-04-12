@@ -2,7 +2,7 @@
 
 #define input and output files
 input="words.txt"
-output="inventedWords.txt"
+output="cleaned.txt"
 
 #check if input file exists
 if [ ! -f "$input" ]; then
