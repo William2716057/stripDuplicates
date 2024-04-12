@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #define input and output files
-input="words.txt"
-output="cleaned.txt"
+input="words.txt" #adjust here
+output="cleaned.txt" #adjust here
 
 #check if input file exists
 if [ ! -f "$input" ]; then
