@@ -1,11 +1,17 @@
-This shell script is designed to clean up a word list file by removing duplicates and sorting the unique words alphabetically.
+# Duplicate Stripper
+This is a simple bash script designed to clean up text files by removing duplicate lines.
 
-Script Details
+## Features
+Removes duplicate lines from a text file.
+Sorts the lines alphabetically.
+Outputs the cleaned text to a new file.
 
-Input File: The script expects an input file named words.txt, customise the name to whichever is needed.
-
-Output File: The cleaned word list is saved to a file named cleaned.txt, customise the name to whichever is needed.
-
-Duplicate Removal: The script removes duplicate words from the input file using the uniq command.
-
-Sorting: After removing duplicates, the script sorts the unique words alphabetically using the sort command.
+### Prerequisites
+Bash shell environment.
+Input text file to be cleaned.
+### Usage
+1. Clone the repository
+2. Navigate to the cloned directory:
+3. Adjust the input and output file names in the script (clean.sh):
+4. Make the script executable (chmod +x stripDuplicates.sh):
+5. Run the script:
